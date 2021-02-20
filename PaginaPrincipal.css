@@ -1,12 +1,156 @@
+
+
+
+.dropbtn {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  } 
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: #979797;
+  }
+
+
+
+
+
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav{
+    position: absolute;
+    width: 100%;
+    height: 130px;
+    z-index: 10;
+    background: #353535;
+    top: 0px;
+    color: rgb(255, 255, 255);
+  }
+  
+
+  article{
+    position: absolute;
+    width: 80%;
+    left: 50%;
+    margin-left: -40%;
+    top: 220px;
+    background: #C4C4C4;
+  }
+
+  .Paste{
+    position: fixed;
+    top: 0;
+  }
+
+
+.Todo{
+  border-radius: 10px;
+  background-color: skyblue;
+  position:initial;
+  bottom:0;
+}
+
+.InfoUsuarioNav{
+    position: absolute;
+    top: 0;
+    left: 90%;
+
+    /*box*/
+    width: 100px;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+
 #HacerPregunta{
     position:absolute;
     right: 90px;
 }
-
-.Todo{
-background-color: skyblue;
-}
-
 .SeccionNoticias{
-    background-color: slategray;
+  position: relative;
+  border-radius: 10px;
+  background-color: slategray;
 }
+
+
+.Noticia{
+  position:relative;
+  border-radius: 5px;
+    width: auto;
+    height: 220px;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 20px;
+}
+
+
+
+
+.InfoNoticia{
+  line-height: 15pt; 
+}
+
+.DescrPregunta {
+    position: absolute;
+    display:inline-block;
+    top: 0px;
+    left: 300px;
+    width: 600px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+
+.InfoUsuarioPreg{
+    position: relative;
+    bottom: 200px;
+    left: 900px;
+    border-radius: 3px;
+    /*box*/
+    width: 100px;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+
+
