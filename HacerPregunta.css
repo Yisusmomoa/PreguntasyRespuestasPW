@@ -1,6 +1,3 @@
-
-
-
 .dropbtn {
     background-color: #ffffff;
     color: rgb(0, 0, 0);
@@ -47,9 +44,7 @@
     background-color: #979797;
   }
 
-
-
-#EjNav> a{
+#EjNav a{
   text-decoration: none;
   background-color: #ffffff;
     color: rgb(0, 0, 0);
@@ -62,22 +57,9 @@
   background-color: #979797;
 }
 
-
-#Busqueda {
-  bottom: 85px;
-  padding: 1px;
-  position: absolute;
-  right: 400px;
- }
-
- #Busqueda a{
-   position:absolute;
-   top: 30px;
-    font-size: 10px;
+a{
+  text-decoration: none;
 }
-/*
-https://programandoointentandolo.com/2017/10/reset-css-normalizar-estilos.html
-*/
 
   *{
     margin: 0;
@@ -93,7 +75,7 @@ https://programandoointentandolo.com/2017/10/reset-css-normalizar-estilos.html
     width: 100%;
     height: 130px;
     z-index: 10;
-   background-color: rgb(177, 177, 177);
+   background-color: rgb(228, 228, 228);
     top: 0px;
     color: rgb(2, 1, 1);
   }
@@ -114,15 +96,6 @@ https://programandoointentandolo.com/2017/10/reset-css-normalizar-estilos.html
     top: 0;
   }
 
-
-.Todo{
-  
-  border-radius: 10px;
-  background-color:transparent;
-  position:initial;
-  bottom:0;
-}
-
 .InfoUsuarioNav{
     position: absolute;
     top: 0;
@@ -134,60 +107,10 @@ https://programandoointentandolo.com/2017/10/reset-css-normalizar-estilos.html
     padding: 5px;
     margin: 5px;
 }
+
 .InfoUsuarioNav:hover{
-  cursor: pointer;
-}
-
-#HacerPregunta{
-    position:absolute;
-    right: 90px;
-}
-.SeccionNoticias{
-  position: relative;
-  border-radius: 10px;
-  background-color:  rgb(228, 228, 228);
-}
+    cursor: pointer;
+  }
 
 
-.Noticia{
-  position:relative;
-  border-radius: 5px;
-    width: auto;
-    height: 220px;
-    border: 1px solid black;
-    padding: 5px;
-    margin: 20px;
-}
-
-
-
-
-.InfoNoticia{
-  line-height: 15pt; 
-}
-
-.DescrPregunta {
-    position: absolute;
-    display:inline-block;
-    top: 0px;
-    left: 300px;
-    width: 600px;
-    border-radius: 5px;
-    border: 1px solid black;
-    padding: 5px;
-    margin: 5px;
-}
-
-.InfoUsuarioPreg{
-    position: relative;
-    bottom: 200px;
-    left: 900px;
-    border-radius: 3px;
-    /*box*/
-    width: 100px;
-    border: 1px solid black;
-    padding: 5px;
-    margin: 5px;
-}
-
-
+  

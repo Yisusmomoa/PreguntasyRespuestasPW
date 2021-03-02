@@ -13,4 +13,3 @@ function AddOrRemove(){
         Nav.classList.remove("Paste");
     }
 }
-console.log("ptm");
