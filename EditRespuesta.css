@@ -148,57 +148,8 @@ https://programandoointentandolo.com/2017/10/reset-css-normalizar-estilos.html
 
 
 
-#HacerPregunta{
-    position:absolute;
-    right: 90px;
-}
-.SeccionNoticias{
-  position: relative;
-  border-radius: 10px;
-  background-color:  rgb(228, 228, 228);
-}
 
 
-.Noticia{
-  position:relative;
-  border-radius: 5px;
-    width: auto;
-    height: 220px;
-    border: 1px solid black;
-    padding: 5px;
-    margin: 20px;
-}
-
-
-
-
-.InfoNoticia{
-  line-height: 15pt; 
-}
-
-.DescrPregunta {
-    position: absolute;
-    display:inline-block;
-    top: 0px;
-    left: 300px;
-    width: 600px;
-    border-radius: 5px;
-    border: 1px solid black;
-    padding: 5px;
-    margin: 5px;
-}
-
-.InfoUsuarioPreg{
-    position: relative;
-    bottom: 200px;
-    left: 900px;
-    border-radius: 3px;
-    /*box*/
-    width: 100px;
-    border: 1px solid black;
-    padding: 5px;
-    margin: 5px;
-}
 
 
  
@@ -206,118 +157,118 @@ https://programandoointentandolo.com/2017/10/reset-css-normalizar-estilos.html
 
 
 footer{
-  width: 100%;
-  background: #202020;
+    width: 100%;
+    background: #202020;
+    color: white;
+   
+  }
+  
+  .container-footer{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .Row-footer{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .Footer-1{
+    max-width: 400px;
+  }
+  
+  .Footer-1 h1{
+    font-size: 22px;
+  }
+  
+  .Footer-1 p{
+    font-size: 14px;
+    margin-top: 15px;
+  }
+  
+  .Footer-2{
+    max-width: 400px;
+  }
+  
+  .Footer-2 h1{
+    font-size: 22px;
+  }
+  
+  .Socaial-Row{
+    margin-top: 20px;
+    display: flex;
+  }
+  
+  .Socaial-Row a{
+    width: 36px;
+    height: 36px;
+    color: white;
+  }
+  
+  .Socaial-Row label{
+    margin-left: 5px;
+    color: #c7c7c7;
+  }
+  
+  .Socaial-Row label:hover{
+    color: #47b1fd;
+  }
+  
+  .Footer-3{
+    max-width: 400px;
+  }
+  
+  .Footer-3 h1{
+    font-size: 22px;
+  }
+  
+  .Contact-Row1{
+    margin-top: 20px;
+  }
+  
+  .Contact-Row1 a{
   color: white;
- 
-}
-
-.container-footer{
-  width: 100%;
-  max-width: 1200px;
-  margin: auto;
-  padding: 20px;
-}
-
-.Row-footer{
-  display: flex;
-  justify-content: space-between;
-}
-
-.Footer-1{
-  max-width: 400px;
-}
-
-.Footer-1 h1{
-  font-size: 22px;
-}
-
-.Footer-1 p{
-  font-size: 14px;
-  margin-top: 15px;
-}
-
-.Footer-2{
-  max-width: 400px;
-}
-
-.Footer-2 h1{
-  font-size: 22px;
-}
-
-.Socaial-Row{
-  margin-top: 20px;
-  display: flex;
-}
-
-.Socaial-Row a{
   width: 36px;
   height: 36px;
-  color: white;
-}
-
-.Socaial-Row label{
-  margin-left: 5px;
-  color: #c7c7c7;
-}
-
-.Socaial-Row label:hover{
-  color: #47b1fd;
-}
-
-.Footer-3{
-  max-width: 400px;
-}
-
-.Footer-3 h1{
-  font-size: 22px;
-}
-
-.Contact-Row1{
-  margin-top: 20px;
-}
-
-.Contact-Row1 a{
-color: white;
-width: 36px;
-height: 36px;
-}
-
-.Contact-Row1 label{
-  margin-top: 10px;
-   margin-left: 20px;
-   max-width: 120px;
-}
-
-.container-botfooter{
-max-width: 100%;
-background: #101010;
-display: flex;
-padding: 20px;
-justify-content: space-between;
-}
-
-.Copyright {
-display: flex;
-}
-
-.Copyright a{
-text-decoration: none;
-padding-right: 5px;
-color: white;
-}
-
-.infoFooter a{
-  color: #c7c7c7;
-}
-
-.infoFooter a:hover{
-  color: #47b1fd;
-}
-
-.nav-Logo:hover {
+  }
+  
+  .Contact-Row1 label{
+    margin-top: 10px;
+     margin-left: 20px;
+     max-width: 120px;
+  }
+  
+  .container-botfooter{
+  max-width: 100%;
+  background: #101010;
   display: flex;
-  font-size: 15px;
-  cursor: pointer;
-  color: black;
-}
+  padding: 20px;
+  justify-content: space-between;
+  }
+  
+  .Copyright {
+  display: flex;
+  }
+  
+  .Copyright a{
+  text-decoration: none;
+  padding-right: 5px;
+  color: white;
+  }
+  
+  .infoFooter a{
+    color: #c7c7c7;
+  }
+  
+  .infoFooter a:hover{
+    color: #47b1fd;
+  }
+  
+  .nav-Logo:hover {
+    display: flex;
+    font-size: 15px;
+    cursor: pointer;
+    color: black;
+  }

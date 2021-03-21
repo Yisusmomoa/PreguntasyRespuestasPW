@@ -114,3 +114,123 @@ a{
 
 
   
+  
+/*FOOTER*/
+
+
+footer{
+  width: 100%;
+  background: #202020;
+  color: white;
+ 
+}
+
+.container-footer{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.Row-footer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.Footer-1{
+  max-width: 400px;
+}
+
+.Footer-1 h1{
+  font-size: 22px;
+}
+
+.Footer-1 p{
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.Footer-2{
+  max-width: 400px;
+}
+
+.Footer-2 h1{
+  font-size: 22px;
+}
+
+.Socaial-Row{
+  margin-top: 20px;
+  display: flex;
+}
+
+.Socaial-Row a{
+  width: 36px;
+  height: 36px;
+  color: white;
+}
+
+.Socaial-Row label{
+  margin-left: 5px;
+  color: #c7c7c7;
+}
+
+.Socaial-Row label:hover{
+  color: #47b1fd;
+}
+
+.Footer-3{
+  max-width: 400px;
+}
+
+.Footer-3 h1{
+  font-size: 22px;
+}
+
+.Contact-Row1{
+  margin-top: 20px;
+}
+
+.Contact-Row1 a{
+color: white;
+width: 36px;
+height: 36px;
+}
+
+.Contact-Row1 label{
+  margin-top: 10px;
+   margin-left: 20px;
+   max-width: 120px;
+}
+
+.container-botfooter{
+max-width: 100%;
+background: #101010;
+display: flex;
+padding: 20px;
+justify-content: space-between;
+}
+
+.Copyright {
+display: flex;
+}
+
+.Copyright a{
+text-decoration: none;
+padding-right: 5px;
+color: white;
+}
+
+.infoFooter a{
+  color: #c7c7c7;
+}
+
+.infoFooter a:hover{
+  color: #47b1fd;
+}
+
+.nav-Logo:hover {
+  display: flex;
+  font-size: 15px;
+  cursor: pointer;
+  color: black;
+}
